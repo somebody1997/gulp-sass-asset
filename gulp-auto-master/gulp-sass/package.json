@@ -1,0 +1,14 @@
+{
+  "name": "gulp-sass",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+  	"gulp":"^4.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-clean-css":"^4.0.0",
+    "gulp-connect":"^5.7.0",
+    "gulp-imademin":"^4.0.2",
+    "gulp.spritesmith":"^6.9.0"
+  }
+}
