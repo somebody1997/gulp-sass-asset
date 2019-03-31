@@ -7,9 +7,15 @@
 
 const gulp = require('gulp');
 const gulpSass = require('gulp-sass');
+const cleanCss = require('gulp-clean-sass');
 const connect = require('gulp-connect');
-const imagemin = require('gulp.imagemin');
-const spritesmith = require('gulp.spritesmith');
+const imagemin = require('gulp-imagemin');
+const spritesmin = require('gulp.spritesmith');
+const concat = require('gulp-concat');
+const uglify = require('gulp-uglify');
+const rename = require('gulp-rename');
+
+const del = require('del');
 //  ============================================================
 //          工作 1 建構SASS Compiler
 //  ============================================================
